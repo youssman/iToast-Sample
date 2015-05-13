@@ -1,0 +1,487 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8ED0D911B034D9F009683E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED0D901B034D9F009683E9 /* main.m */; };
+		D8ED0D941B034D9F009683E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED0D931B034D9F009683E9 /* AppDelegate.m */; };
+		D8ED0D971B034D9F009683E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED0D961B034D9F009683E9 /* ViewController.m */; };
+		D8ED0D9A1B034D9F009683E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0D981B034D9F009683E9 /* Main.storyboard */; };
+		D8ED0D9C1B034D9F009683E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0D9B1B034D9F009683E9 /* Images.xcassets */; };
+		D8ED0D9F1B034D9F009683E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0D9D1B034D9F009683E9 /* LaunchScreen.xib */; };
+		D8ED0DAB1B034D9F009683E9 /* iToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED0DAA1B034D9F009683E9 /* iToastTests.m */; };
+		D8ED0DB61B034DB0009683E9 /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = D8ED0DB51B034DB0009683E9 /* iToast.m */; };
+		D8ED0E031B03AA02009683E9 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0DFB1B03AA01009683E9 /* error.png */; };
+		D8ED0E041B03AA02009683E9 /* error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0DFC1B03AA01009683E9 /* error@2x.png */; };
+		D8ED0E051B03AA02009683E9 /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0DFD1B03AA01009683E9 /* info.png */; };
+		D8ED0E061B03AA02009683E9 /* info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0DFE1B03AA01009683E9 /* info@2x.png */; };
+		D8ED0E071B03AA02009683E9 /* notice.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0DFF1B03AA02009683E9 /* notice.png */; };
+		D8ED0E081B03AA02009683E9 /* notice@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0E001B03AA02009683E9 /* notice@2x.png */; };
+		D8ED0E091B03AA02009683E9 /* warning.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0E011B03AA02009683E9 /* warning.png */; };
+		D8ED0E0A1B03AA02009683E9 /* warning@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D8ED0E021B03AA02009683E9 /* warning@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D8ED0DA51B034D9F009683E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D8ED0D831B034D9F009683E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8ED0D8A1B034D9F009683E9;
+			remoteInfo = iToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D8ED0D8B1B034D9F009683E9 /* iToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ED0D8F1B034D9F009683E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ED0D901B034D9F009683E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D8ED0D921B034D9F009683E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D8ED0D931B034D9F009683E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D8ED0D951B034D9F009683E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D8ED0D961B034D9F009683E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D8ED0D991B034D9F009683E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D8ED0D9B1B034D9F009683E9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D8ED0D9E1B034D9F009683E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D8ED0DA41B034D9F009683E9 /* iToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8ED0DA91B034D9F009683E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8ED0DAA1B034D9F009683E9 /* iToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iToastTests.m; sourceTree = "<group>"; };
+		D8ED0DB41B034DB0009683E9 /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		D8ED0DB51B034DB0009683E9 /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		D8ED0DFB1B03AA01009683E9 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+		D8ED0DFC1B03AA01009683E9 /* error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "error@2x.png"; sourceTree = "<group>"; };
+		D8ED0DFD1B03AA01009683E9 /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		D8ED0DFE1B03AA01009683E9 /* info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "info@2x.png"; sourceTree = "<group>"; };
+		D8ED0DFF1B03AA02009683E9 /* notice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notice.png; sourceTree = "<group>"; };
+		D8ED0E001B03AA02009683E9 /* notice@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notice@2x.png"; sourceTree = "<group>"; };
+		D8ED0E011B03AA02009683E9 /* warning.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = warning.png; sourceTree = "<group>"; };
+		D8ED0E021B03AA02009683E9 /* warning@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8ED0D881B034D9F009683E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ED0DA11B034D9F009683E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8ED0D821B034D9F009683E9 = {
+			isa = PBXGroup;
+			children = (
+				D8ED0D8D1B034D9F009683E9 /* iToast */,
+				D8ED0DA71B034D9F009683E9 /* iToastTests */,
+				D8ED0D8C1B034D9F009683E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8ED0D8C1B034D9F009683E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0D8B1B034D9F009683E9 /* iToast.app */,
+				D8ED0DA41B034D9F009683E9 /* iToastTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8ED0D8D1B034D9F009683E9 /* iToast */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0DB41B034DB0009683E9 /* iToast.h */,
+				D8ED0DB51B034DB0009683E9 /* iToast.m */,
+				D8ED0D921B034D9F009683E9 /* AppDelegate.h */,
+				D8ED0D931B034D9F009683E9 /* AppDelegate.m */,
+				D8ED0D951B034D9F009683E9 /* ViewController.h */,
+				D8ED0D961B034D9F009683E9 /* ViewController.m */,
+				D8ED0D981B034D9F009683E9 /* Main.storyboard */,
+				D8ED0D9B1B034D9F009683E9 /* Images.xcassets */,
+				D8ED0D9D1B034D9F009683E9 /* LaunchScreen.xib */,
+				D8ED0DF81B038B25009683E9 /* Resources */,
+				D8ED0D8E1B034D9F009683E9 /* Supporting Files */,
+			);
+			path = iToast;
+			sourceTree = "<group>";
+		};
+		D8ED0D8E1B034D9F009683E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0D8F1B034D9F009683E9 /* Info.plist */,
+				D8ED0D901B034D9F009683E9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8ED0DA71B034D9F009683E9 /* iToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0DAA1B034D9F009683E9 /* iToastTests.m */,
+				D8ED0DA81B034D9F009683E9 /* Supporting Files */,
+			);
+			path = iToastTests;
+			sourceTree = "<group>";
+		};
+		D8ED0DA81B034D9F009683E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0DA91B034D9F009683E9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D8ED0DF81B038B25009683E9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D8ED0DFB1B03AA01009683E9 /* error.png */,
+				D8ED0DFC1B03AA01009683E9 /* error@2x.png */,
+				D8ED0DFD1B03AA01009683E9 /* info.png */,
+				D8ED0DFE1B03AA01009683E9 /* info@2x.png */,
+				D8ED0DFF1B03AA02009683E9 /* notice.png */,
+				D8ED0E001B03AA02009683E9 /* notice@2x.png */,
+				D8ED0E011B03AA02009683E9 /* warning.png */,
+				D8ED0E021B03AA02009683E9 /* warning@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8ED0D8A1B034D9F009683E9 /* iToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ED0DAE1B034D9F009683E9 /* Build configuration list for PBXNativeTarget "iToast" */;
+			buildPhases = (
+				D8ED0D871B034D9F009683E9 /* Sources */,
+				D8ED0D881B034D9F009683E9 /* Frameworks */,
+				D8ED0D891B034D9F009683E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iToast;
+			productName = iToast;
+			productReference = D8ED0D8B1B034D9F009683E9 /* iToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D8ED0DA31B034D9F009683E9 /* iToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8ED0DB11B034D9F009683E9 /* Build configuration list for PBXNativeTarget "iToastTests" */;
+			buildPhases = (
+				D8ED0DA01B034D9F009683E9 /* Sources */,
+				D8ED0DA11B034D9F009683E9 /* Frameworks */,
+				D8ED0DA21B034D9F009683E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8ED0DA61B034D9F009683E9 /* PBXTargetDependency */,
+			);
+			name = iToastTests;
+			productName = iToastTests;
+			productReference = D8ED0DA41B034D9F009683E9 /* iToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8ED0D831B034D9F009683E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				TargetAttributes = {
+					D8ED0D8A1B034D9F009683E9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 9352VF3B7X;
+					};
+					D8ED0DA31B034D9F009683E9 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = D8ED0D8A1B034D9F009683E9;
+					};
+				};
+			};
+			buildConfigurationList = D8ED0D861B034D9F009683E9 /* Build configuration list for PBXProject "iToast" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8ED0D821B034D9F009683E9;
+			productRefGroup = D8ED0D8C1B034D9F009683E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8ED0D8A1B034D9F009683E9 /* iToast */,
+				D8ED0DA31B034D9F009683E9 /* iToastTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8ED0D891B034D9F009683E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ED0E091B03AA02009683E9 /* warning.png in Resources */,
+				D8ED0D9A1B034D9F009683E9 /* Main.storyboard in Resources */,
+				D8ED0E041B03AA02009683E9 /* error@2x.png in Resources */,
+				D8ED0D9F1B034D9F009683E9 /* LaunchScreen.xib in Resources */,
+				D8ED0E031B03AA02009683E9 /* error.png in Resources */,
+				D8ED0D9C1B034D9F009683E9 /* Images.xcassets in Resources */,
+				D8ED0E061B03AA02009683E9 /* info@2x.png in Resources */,
+				D8ED0E051B03AA02009683E9 /* info.png in Resources */,
+				D8ED0E0A1B03AA02009683E9 /* warning@2x.png in Resources */,
+				D8ED0E081B03AA02009683E9 /* notice@2x.png in Resources */,
+				D8ED0E071B03AA02009683E9 /* notice.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ED0DA21B034D9F009683E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8ED0D871B034D9F009683E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ED0D971B034D9F009683E9 /* ViewController.m in Sources */,
+				D8ED0D941B034D9F009683E9 /* AppDelegate.m in Sources */,
+				D8ED0D911B034D9F009683E9 /* main.m in Sources */,
+				D8ED0DB61B034DB0009683E9 /* iToast.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8ED0DA01B034D9F009683E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8ED0DAB1B034D9F009683E9 /* iToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D8ED0DA61B034D9F009683E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D8ED0D8A1B034D9F009683E9 /* iToast */;
+			targetProxy = D8ED0DA51B034D9F009683E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D8ED0D981B034D9F009683E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ED0D991B034D9F009683E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D8ED0D9D1B034D9F009683E9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D8ED0D9E1B034D9F009683E9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D8ED0DAC1B034D9F009683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D8ED0DAD1B034D9F009683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8ED0DAF1B034D9F009683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = iToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2f2aa4a-1800-44ba-918c-0ad71fdf083e";
+			};
+			name = Debug;
+		};
+		D8ED0DB01B034D9F009683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				INFOPLIST_FILE = iToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f2f2aa4a-1800-44ba-918c-0ad71fdf083e";
+			};
+			name = Release;
+		};
+		D8ED0DB21B034D9F009683E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToast.app/iToast";
+			};
+			name = Debug;
+		};
+		D8ED0DB31B034D9F009683E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iToast.app/iToast";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8ED0D861B034D9F009683E9 /* Build configuration list for PBXProject "iToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED0DAC1B034D9F009683E9 /* Debug */,
+				D8ED0DAD1B034D9F009683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ED0DAE1B034D9F009683E9 /* Build configuration list for PBXNativeTarget "iToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED0DAF1B034D9F009683E9 /* Debug */,
+				D8ED0DB01B034D9F009683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8ED0DB11B034D9F009683E9 /* Build configuration list for PBXNativeTarget "iToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8ED0DB21B034D9F009683E9 /* Debug */,
+				D8ED0DB31B034D9F009683E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8ED0D831B034D9F009683E9 /* Project object */;
+}
